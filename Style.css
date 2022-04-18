@@ -145,7 +145,7 @@ li a:hover:not(.active) {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+  width: 95%;
 }
 
 .button:hover {
@@ -184,9 +184,9 @@ li a:hover:not(.active) {
     box-shadow: 5px 5px 5px grey;
   }
 
-  .card{
+  /*.card{
     padding: 0 16px;
-  }
+  }*/
 
   /* This is the style of the footer div*/
   footer {
@@ -223,7 +223,7 @@ li a:hover:not(.active) {
   .message .content1 {
     background-color: #51c7eb;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
+    width: 95%;
     border-top-left-radius: 5%;
   }
 }
