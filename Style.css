@@ -20,7 +20,7 @@
 
   h2 {
     font-size: 1.875em; /* 30px/16=1.875em */
-    color: #4db8ff;
+    color: red;
   }
   
   p {
@@ -217,6 +217,12 @@ li a:hover:not(.active) {
     color: black;
     font-size: 0.5em;
    }
+  .message .content1 {
+    background-color: #51c7eb;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 90%;
+    border-top-left-radius: 5%;
+  }
 }
  /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
