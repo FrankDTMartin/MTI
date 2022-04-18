@@ -210,12 +210,13 @@ li a:hover:not(.active) {
 
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
-  .flex-container {
+  .flex-container, .message {
     flex-direction: column;
   }
-  .message{
-    flex-direction: column;
-}
+  .card >h2 {
+    color: black;
+    font-size: 0.5em;
+   }
 }
  /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
