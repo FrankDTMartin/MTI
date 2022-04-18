@@ -12,7 +12,7 @@
       border: 0;
       padding: 0;
       margin: 0;
-      font-family: cursive, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   h1 {
     font-size: 2.5em; /* 40px/16=2.5em */
@@ -220,7 +220,7 @@ li a:hover:not(.active) {
   .message .content1 {
     background-color: #51c7eb;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    width: 90%;
+    width: 100%;
     border-top-left-radius: 5%;
   }
 }
