@@ -212,3 +212,10 @@ li a:hover:not(.active) {
     /*padding: 25px 20% 25px 25%;*/
     font-size: 20px;
   }
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
