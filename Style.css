@@ -34,8 +34,10 @@
       align-items:center;
       color: blue;
   }
-  header > img{
+  /*header >*/ .logo{
     float: right;
+      width: 100%;
+      height: auto;
   }
 
   /*This is the start of the navigation bar*/
