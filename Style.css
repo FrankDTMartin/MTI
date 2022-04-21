@@ -27,7 +27,7 @@
     font-size: 0.875em; /* 14px/16=0.875em */
   }
   body{
-     overflow: hidden;
+     overflow-x: hidden;
 }
 
   header{
@@ -138,6 +138,7 @@ li a:hover:not(.active) {
   .content{
   font-size: 30px;
   padding: 1em;
+  overflow: hidden;
 }
 
 .button {
