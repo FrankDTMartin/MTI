@@ -176,6 +176,7 @@ li a:hover:not(.active) {
     background-color: #51c7eb;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     width: 22%;
+    margin-top: 11%;
     border-top-right-radius: 5%;
     
   }
